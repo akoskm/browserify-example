@@ -1,0 +1,18 @@
+{
+  "name": "browserify-production",
+  "version": "1.0.0",
+  "description": "browserify app with development and production scripts",
+  "main": "index.js",
+  "author": "",
+  "scripts": {
+    "dev": "browserify -d src/client/index.js > www/js/index.js --verbose",
+    "prod": "browserify src/client/index.js -p [ minifyify --no-map --uglify [ --mangle [ 'toplevel' ] ] ] > www/js/index.js",
+    "start": "node index.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "express": "^4.14.0",
+    "minifyify": "^7.3.3"
+  }
+}
