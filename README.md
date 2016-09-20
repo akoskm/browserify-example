@@ -1,5 +1,3 @@
-npm scripts for building development and production ready browserify bundles.
-
 These scripts provide a good start for development and production builds using:
 
 * `browserify -d` to enable debugging of separate files in development
