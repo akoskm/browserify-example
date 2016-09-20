@@ -8,8 +8,8 @@
     "url": "http://akoskm.com"
   },
   "scripts": {
-    "dev": "browserify -d src/client/index.js > www/js/index.js --verbose",
-    "prod": "browserify src/client/index.js -p [ minifyify --no-map --uglify [ --mangle [ 'toplevel' ] ] ] > www/js/index.js",
+    "dev": "browserify -d src/client/index.js > www/index.js --verbose",
+    "prod": "browserify src/client/index.js -p [ minifyify --no-map --uglify [ --mangle [ 'toplevel' ] ] ] > www/index.js",
     "start": "node index.js"
   },
   "license": "ISC",
