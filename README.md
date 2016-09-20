@@ -12,4 +12,4 @@ npm run [dev | prod]
 npm start
 ```
 
-the application should be up on [http://localhost:3000].
+the application should be up on [http://localhost:3000]().
